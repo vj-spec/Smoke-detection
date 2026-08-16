@@ -1,10 +1,10 @@
 # IoT-Enabled Smoke Detection System Using Arduino
 
-**Aim**
+## Aim
 
 To design, simulate, and analyze an IoT-enabled Smoke Detection System using Arduino Uno in Proteus Professional, which detects smoke concentration using an MQ-2 gas sensor and sends alert information through a simulated IoT communication module while activating visual and audible alarms.
 
-**Apparatus Required**
+## Apparatus Required
 
 **S. No	Components/Software	Specification	Quantity**
 1	Arduino Uno	ATmega328P	1
@@ -19,7 +19,7 @@ To design, simulate, and analyze an IoT-enabled Smoke Detection System using Ard
 10	Arduino IDE	Program Development	1
 11	Connecting Wires	Virtual	As required
 
-**Procedure**
+## Procedure
 
 Step 1: Create the Circuit
 Open Proteus Professional.
@@ -69,25 +69,15 @@ Normal condition displays safe smoke levels.
 High smoke concentration activates LED and buzzer.
 Alert message is transmitted via the simulated IoT interface.
 
-**Circuit Diagram**
+## Circuit Diagram & OUTPUT
+
+
+<img width="1916" height="1140" alt="image" src="https://github.com/user-attachments/assets/439c754a-9e6d-4e12-afa6-19e942629856" />
 
 
 
 
 
-
-
-
-
-
-**Output**
-
-
-
-
-
-
-
-**Result**
+## Result
 
 The IoT-enabled Smoke Detection System was successfully designed and simulated using Proteus. The Arduino continuously monitored smoke concentration from the MQ-2 sensor. When the smoke level exceeded the predefined threshold, the system successfully activated the LED and buzzer and transmitted an alert message through the simulated IoT communication interface. The experiment demonstrated the effective implementation of a smart smoke monitoring and early warning system suitable for home, office, and industrial safety applications.
